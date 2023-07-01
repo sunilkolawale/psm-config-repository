@@ -1,5 +1,16 @@
-datasource:
-    url: jdbc:mysql://localhost:3306/psm_db?allowPublicKeyRetrieval=true&useSSL=false
+spring:
+  application:
+    name: psm-student-service  
+  main:
+    allow-bean-definition-overriding: true
+  batch: 
+    job:
+      enabled: true
+    jdbc:
+      initialize-schema: ALWAYS
+      
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_batch_db?allowPublicKeyRetrieval=true&useSSL=false
     username: root
     password: root
   jpa:
