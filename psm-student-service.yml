@@ -1,9 +1,3 @@
-batch: 
-    job:
-      enabled: false
-    jdbc:
-      initialize-schema: ALWAYS
-      
 datasource:
     url: jdbc:mysql://localhost:3306/psm_db?allowPublicKeyRetrieval=true&useSSL=false
     username: root
