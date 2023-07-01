@@ -4,7 +4,7 @@ batch:
     jdbc:
       initialize-schema: ALWAYS
       
-  datasource:
+datasource:
     url: jdbc:mysql://localhost:3306/psm_db?allowPublicKeyRetrieval=true&useSSL=false
     username: root
     password: root
